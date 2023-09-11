@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
+
+.end{
+    padding: 20px;
+}

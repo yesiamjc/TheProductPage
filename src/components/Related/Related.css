@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allCard{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.head{
+    padding: 40px;
+    color: azure;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    background-color: azure;
+    width: 259px;
+    height: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.btnH{
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: rgb(255, 115, 0);
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnH:hover{
+ background-color: white;
+ color: rgb(255, 115, 0);
+ transition: 0.5s ease-in-out;
+}
